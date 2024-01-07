@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        #container {
+            width: 600px;
+            margin: 20px auto;
+        }
+        p {
+            width: 500px;
+            padding: 10px;
+        }
+        #container > p {
+            background-color: rgb(255, 255, 166);
+            border: 1px solid;
+        }
+        #container > div > p {
+            background-color: thistle;
+            border: 1px solid;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p>일반적인 텍스트 단락입니다.</p>
+        <h1>예약방법 & 사용 요금</h1>
+        <p>아직 온라인 예약신청이 준비되어 있지 않습니다. <br>전화(xxx-xxx-xxx)로 문의 바랍니다.</p>
+        <div>
+        <p>가족실(2~4인) : 6.0원/일</p>
+        <p>도미토리(4인 공용) : 2.5원/일</p>
+    </div>
+</body>
+</html>
